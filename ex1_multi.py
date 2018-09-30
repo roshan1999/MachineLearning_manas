@@ -30,13 +30,7 @@ def main():
     print('Computing c0st- -----')
     J = computeCost(X,Y,theta,m)
     print(J)
-    #plot the cost
-    fig, ax = plt.subplots()
-    ax.plot(np.arange(1), J, 'r')
-    ax.set_xlabel('Iterations')
-    ax.set_ylabel('Cost')
-    ax.set_title('Error vs. Training Epoch')
-
+    
 
 if __name__ == '__main__':
     main()
